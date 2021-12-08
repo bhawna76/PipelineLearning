@@ -9,6 +9,8 @@ pipeline {
                  bat "mvn clean install"
                  bat "mvn clean compile"
                  bat "mvn clean test"
+                 }
            }
         }
     }
+}
